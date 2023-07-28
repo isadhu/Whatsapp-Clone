@@ -1,7 +1,9 @@
-import React from 'react';
+import Login from '@/Screens/Login';
 
-function login() {
-	return <div className='flex justify-center'>login</div>;
+export default function Page() {
+	return (
+		<div>
+			<Login />
+		</div>
+	);
 }
-
-export default login;
